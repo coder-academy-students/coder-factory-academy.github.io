@@ -87,11 +87,8 @@ export default class Presentation extends React.Component {
             </Text>
         </Slide>
 
-
-
         <Slide transition={["fade"]} bgColor="primary" textColor="tertiary">
           <Heading size={4} textColor="tertiary">How you will feel</Heading>
-
             <List textColor="secondary">
               <ListItem>Overwhelmed</ListItem>
               <ListItem>Confused</ListItem>
@@ -102,9 +99,7 @@ export default class Presentation extends React.Component {
               <ListItem>Amazed</ListItem>
               <ListItem>Joyous</ListItem>
             </List>
-
         </Slide>
-
 
         <Slide transition={["fade"]} bgColor="tertiary" textColor="tertiary">
           <Heading size={6} textColor="secondary">What is Ruby on Rails?</Heading>
